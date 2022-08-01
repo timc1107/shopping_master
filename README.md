@@ -19,27 +19,27 @@ _ _ _
 >### 程式流程圖-AI物品辨識
 >![硬體架構圖](./images/SW3.png)
 ___
-# User manual
-事先準備
+# 操作手冊 User manual
 
-* Tera Term
-* EM9D USB線
-* VirtualBox
-* HMX_FT4222H_GUI
+## 準備工具
+* 電腦PC, SDK 及 EM9D AIoT DK 
+* VirtualBox 軟體
+* Tera Term 軟體
+* HMX_FT4222H_GUI 燒錄程式
 
-Flashing the image
+## 燒錄 Flashing the image
+1. 程式下載
+2. 開啟VirtualBox 執行 make 和 make flash 程式
+3. EM9D透過USB連接電腦PC
+4. 設定 Jumper, 開啟HMX_FT4222H_GUI 燒入程式 image 至 EM9D 板子
+5. 開啟Tera Term
+6. 選擇正確的Serial Port(COMx)
+7. 更改baud rate 為115200
+8. 設定 Jumper 執行程式開始人臉辨識
 
-1. 下載Github上的程式
-2. 開啟VirtualBox
-3. make和make flash程式
-4. EM9D透過USB連接電腦
-5. 開啟HMX_FT4222H_GUI，並燒入程式至EM9D
-6. 開啟Tera Term
-7. 選擇正確的Serial Port(COMx)
-8. 更改baud rate 為115200
-9. 開始人臉辨識
-
-人臉辨識操作流程
-
->  透過EM9D來判斷顧客的身分，並透過UART0來傳輸偵測到的顧客名稱到Node MCU，並連接AWS的RDS抓取顧客的購物清單，最後透過Node MCU的TX、RX來傳輸資料給E-paper顯示出來。
+## 人臉辨識(會員登入)操作流程
+>  透過EM9D鏡頭輸入來辨識人臉(會員)，並透過UART將結果傳輸到Node MCU，NodeMCU 連接至AWS然後將RDS MySQL內的購物清單發送回NodeMCU，最後透過Node MCU的另一組 s/w UART 將購物清單資料傳送給E-paper 顯示出來。
+>
+## 物件辨識(選購)操作流程
+>  透過EM9D鏡頭輸入來辨識物件，並透過UART將結果傳輸到Node MCU，透過Node MCU的另一組 s/w UART 將購物清單資料傳送給E-paper 顯示出來, 同時也將購物物件訊息送至 AWS 雲端存放在另一個資料庫內。
 
