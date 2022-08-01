@@ -5,6 +5,9 @@ This is the project design and works for 2022 Synopsys ARC AIoT Design Contest.
 #  作品照片 Photo
 >![智慧購物車](./photo/smartcart5.jpg)
 >![電子紙螢幕](./photo/ePD.jpg)
+
+# 展示影片
+>![展示影片](https://youtu.be/HX0FB1RJktg)
 _ _ _
 # 硬體/軟體設定 HW/SW setup
 > ### 硬體架構圖 HW Architecture
