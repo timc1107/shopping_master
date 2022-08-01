@@ -10,8 +10,8 @@ _ _ _
 > ### 硬體架構圖 HW Architecture
 >![硬體架構圖](./images/HW.png)
 
->### 軟體流程1
->![硬體架構圖](./images/SW.png)
+>### 程式流程圖-手機APP 購物清單及結帳
+>![程式流程圖](./images/SW block 1.png)
 
 >### 軟體架構圖2
 >![硬體架構圖](./images/SW2.png)
