@@ -5,7 +5,7 @@ This is the project design and works for 2022 Synopsys ARC AIoT Design contest
 _ _ _
 # HW/SW setup
 > ### 硬體架構圖
->![硬體架構圖](images/HW.png)
+>![硬體架構圖](./images/HW.png)
 
 >### 軟體架構圖1
 >![硬體架構圖](SW.png)
