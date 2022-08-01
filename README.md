@@ -3,7 +3,9 @@ This is the project design and works for 2022 Synopsys ARC AIoT Design Contest.
 #   Introduction
 >  系統主要功能包含透過 ARC EM9D AIoT 開發板進行AI人臉辨識，登入會員身分並同時完成實名制登錄後，結合手機APP，讓顧客可以編輯購買備忘清單，上傳至雲端並同步顯示在購物車上的電子紙顯示螢幕供查看，最後透過AI物品辨識和自動結帳的功能，完成無結帳人員接觸並省下排隊的時間。
 #  作品照片 Photo
+> ### 智慧購物車
 >![智慧購物車](./photo/system.png)
+> ### 4.2" 電子紙顯示
 >![電子紙螢幕](./photo/ePD.jpg)
 
 # 展示影片
