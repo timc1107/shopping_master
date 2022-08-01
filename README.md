@@ -7,7 +7,7 @@ This is the project design and works for 2022 Synopsys ARC AIoT Design Contest.
 >![電子紙螢幕](./photo/ePD.jpg)
 
 # 展示影片
->!影片展示[網址](https://youtu.be/HX0FB1RJktg)
+>影片展示[網址](https://youtu.be/HX0FB1RJktg)
 _ _ _
 # 硬體/軟體設定 HW/SW setup
 > ### 硬體架構圖 HW Architecture
